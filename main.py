@@ -354,10 +354,9 @@ while True:
 
                         # - map
                         try:
-                            if options["map"]["entry"].value != default_options[1]:
+                            if options["map"]["entry"].value != default_options["map"]:
                                 MAP_SIZE = int(options["map"]["entry"].value)
                                 CELL_SIZE = SCREEN_SIZE//MAP_SIZE
-                                #old_map = deepcopy(map)
                                 map = [[0 for _ in range(MAP_SIZE+2*MAP_SIZE_EXTEND)] for __ in range(MAP_SIZE+2*MAP_SIZE_EXTEND)]
                                 gen_number = 0
                                 options["gen"]["entry"].value = str(gen_number)
