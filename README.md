@@ -23,6 +23,7 @@ There are cells in an initial state and they will evolve depending of some rules
  I code this project with python 3.9.1.
  
  Download python : https://www.python.org/downloads/
+ 
  Install pygame : https://www.pygame.org/wiki/GettingStarted
  
  Keys :
@@ -38,11 +39,3 @@ There are cells in an initial state and they will evolve depending of some rules
  The option "Ticks" is the speed of the simulation
  
  The option "Cells color" must be write as `r, g, b`
- 
- 
- ## More about
- This is a project I have done because I was boring and I wanted to program something cool I liked. 
- I create this at 18 years old, just before the start of my first school year of informartic and I'm really proud of this project.
- 
- 
- 20/08/2021
